@@ -22,4 +22,4 @@ jobs:
         run: make cmd/painter
 
       - name: Test
-        run: make -B test
+        run: go test -v ./...
